@@ -1,0 +1,98 @@
+/*1
+ class Array
+{
+public static void main(String args[])
+{*/
+ /*
+int sum=0;
+int a[]=new int[3];
+a[0]=1;
+a[1]=3;
+a[2]=4;
+sum=a[0]+a[1]+a[2];
+System.out.println("the sum is"+ sum);
+}
+}o/p:
+the sum is8*/
+/*2
+int sum=0;
+
+float avg;
+int a[]=new int[3];
+a[0]=2;
+a[1]=0;
+a[2]=4;
+sum=a[0]+a[1]+a[2];
+ avg=sum/3;
+System.out.println("the avg is"+avg);
+}
+}o/p:
+the avg is2.0*/
+/*6
+import java.util.Scanner;
+class Array
+{
+public static void main(String args[])
+{
+int n,i;
+Scanner s=new Scanner(System.in);
+System.out.print("Enter the size of an array:");
+n=s.nextInt();
+int a[]=new int[n];
+int b[]=new int[n];
+System.out.print("Enter the values of an array:"); 
+for(i=0;i<n;i++)
+{
+a[i]=s.nextInt();
+}
+System.out.println("the values of an array a:");
+for(i=0;i<n;i++)
+{
+System.out.println(a[i]);
+}
+System.out.println("the values of an array b:");
+for(i=0;i<n;i++)
+{
+System.out.println(b[i]=a[i]);
+}
+s.close();
+}
+}o/p:
+Enter the size of an array:4
+Enter the values of an array:2 3 4 0
+Display the values of an array a:
+2
+3
+4
+0
+Display the values of an array b:
+2
+3
+4
+0*/
+import java.util.Scanner;
+class Array{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the no.ofvalues");
+int n= s.nextInt();
+int a[]=new int[n];
+System.out.println("enter the numbers"+n);
+for(int i=0;i<n;i++)
+{
+a[i]=s.nextInt();
+}
+System.out.println("enter the element to find");
+int b=s.nextInt();
+int index=-1;
+for(int i=0;i<n;i++)
+{
+if(a[i]==b)
+{
+index=i-1;
+System.out.println("the index is"+i);
+}
+}
+}
+}
