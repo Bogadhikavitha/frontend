@@ -1,0 +1,96 @@
+import java.lang.String;
+
+class A
+{
+public static void main(String ar[])
+{/*
+   String a="hii";
+String s="hii";
+    System.out.println(a+s);
+}
+}*//*String s="hello";
+System.out.println(s.length());
+}
+}*/
+/*String s="hello";
+System.out.println(s.substring(0,4));
+}
+}O/P:hell*/
+/*String s="hello";
+System.out.println(s.indexOf('o'));
+}
+}
+o/p:4
+*/
+/*String s="hello";
+System.out.println(s.toUpperCase());
+}
+}
+O/P:HELLO*/
+/* 1
+String s="hello";
+String s1=new String("sviet");
+System.out.println(s);
+System.out.println(s1);
+}
+}
+O/P:hello
+sviet
+*/
+/*
+String s="hello";
+String s2="hi";
+System.out.println(s.equals(s2));
+}
+}o/p:false
+*/
+/*
+String s="hello";
+String s1="hi";
+System.out.println(s.equalsIgnoreCase(s1));
+System.out.println(s.startsWith("ello"));
+System.out.println(s.endsWith("ello"));
+System.out.println(s.compareTo(s));
+}
+}
+o/p:false
+false
+true
+0*/
+/*
+String s="   hello world";
+System.out.println(s.trim());
+}
+}
+o/p:hello world
+*//* 10
+String s="hello";
+System.out.println(s.replace("hello","hi"));
+}
+}O/P:hi*/
+/* 6
+String s="hello";
+String s1="hello";
+System.out.println(s.matches(s1));
+}
+}
+o/p:true*/
+/*
+  String s = "this is a pen";
+  String[] words = s.split(" ");
+ for (String  word: words)
+{
+ System.out.println(word);
+}
+}
+}
+o/p:this
+is
+a
+pen*/
+String s="2";
+String s1=s.valueOf(2);
+s1=s1+2;
+ System.out.println(s1);
+}
+}o/p:22
